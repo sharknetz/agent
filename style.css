@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+.header{
+    border: 1px solid white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(max45.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 490px;
+    height: 490px;
+    background: transparent;
+    border: 2px solid rgba(153, 150, 150, 0.374);
+    backdrop-filter: blur(3px);
+    color: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.wrapper .input-box {
+    width: 390px;
+    height: 40px;
+    /* background: yellow; */
+    margin: 30px;
+    margin-left: -0px;
+}
+
+.input-box input {
+    height: 40px;
+    width: 390px;
+    background: #bdbdbd58;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.371);
+    border-radius: 40px;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 9px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 3px;
+
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 390px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba (0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+
+}
+
+.register-link p a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.wapps {
+    width: 100px;
+    display: flex;
+    border: 1px solid blue;
+}
+
+.input-boxs input {
+    margin-top: 30px;
+    height: 40px;
+    width: 194px;
+    box-shadow: #333;
+    border-radius: 40px;
+    background: #bdbdbd58;
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid rgba(224, 224, 224, 0.337);
+    outline: none;
+
+}
+
+.input-boxs input::placeholder {
+    color: white;
+    font-size: 16px;
+}
